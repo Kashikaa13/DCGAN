@@ -1,13 +1,13 @@
 # DCGAN for Face Generation using CELEBA Dataset
 
 ## Introduction
-This project implements a Deep Convolutional Generative Adversarial Network (DCGAN) to generate realistic face images using the CELEBA dataset. The model consists of a generator and a discriminator trained using PyTorch.
+This project utilizes a Deep Convolutional Generative Adversarial Network (DCGAN) to generate lifelike face images from the CELEBA dataset. The model, built with PyTorch, comprises a generator and a discriminator that are trained adversarially.
 
 ## Dataset Preprocessing Steps
-1. Download the CELEBA dataset from Kaggle.
-2. Resize and normalize images to 64x64 resolution.
-3. Convert images to tensors and normalize pixel values to the range [-1, 1].
-4. Load dataset using PyTorch's DataLoader for efficient batch processing.
+1. Obtain the CELEBA dataset from Kaggle.
+2. Resize and standardize images to a 64x64 resolution.
+3. Transform images into tensors and scale pixel values to the range [-1, 1].
+4. Utilize PyTorch's DataLoader for efficient batch loading.
 
 ## Training the Model
 1. Set hyperparameters such as batch size, learning rate, and number of epochs.
